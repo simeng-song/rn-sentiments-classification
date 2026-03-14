@@ -1,0 +1,32 @@
+=== training（avec_neutre=True）===
+
+[DEV] Validation resultats:
+              precision    recall  f1-score   support
+
+    negative       0.74      0.17      0.28        82
+      neutre       0.78      0.10      0.17        72
+    positive       0.87      1.00      0.93       846
+
+    accuracy                           0.86      1000
+   macro avg       0.79      0.42      0.46      1000
+weighted avg       0.85      0.86      0.82      1000
+
+[[ 14   2  66]
+ [  3   7  62]
+ [  2   0 844]]
+
+[TEST] Test resultats:
+              precision    recall  f1-score   support
+
+    negative       0.68      0.21      0.32        82
+      neutre       0.50      0.03      0.05        72
+    positive       0.87      0.99      0.93       846
+
+    accuracy                           0.86      1000
+   macro avg       0.68      0.41      0.43      1000
+weighted avg       0.82      0.86      0.81      1000
+
+[[ 17   1  64]
+ [  4   2  66]
+ [  4   1 841]]
+

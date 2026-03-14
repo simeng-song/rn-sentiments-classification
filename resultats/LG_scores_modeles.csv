@@ -1,0 +1,9 @@
+Modèle,Type,Accuracy,F1 macro
+Books (2) - LogReg,LogReg,0.92,0.56
+Books (2) - BERT,BERT,0.94,0.8
+Books (3) - LogReg,LogReg,0.86,0.43
+Books (3) - BERT,BERT,0.87,0.51
+Kindle (2) - LogReg,LogReg,0.94,0.54
+Kindle (2) - BERT,BERT,0.95,0.79
+Kindle (3) - LogReg,LogReg,0.88,0.47
+Kindle (3) - BERT,BERT,0.89,0.56

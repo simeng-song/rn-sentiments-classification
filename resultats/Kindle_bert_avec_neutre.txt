@@ -1,0 +1,31 @@
+[DEV] Résultats de validation :
+              precision    recall  f1-score   support
+
+    negative       0.54      0.52      0.53        62
+      neutre       0.45      0.12      0.19        77
+    positive       0.92      0.98      0.95       861
+
+    accuracy                           0.88      1000
+   macro avg       0.64      0.54      0.55      1000
+weighted avg       0.86      0.88      0.86      1000
+
+Matrice de confusion (DEV):
+[[ 32   4  26]
+ [ 16   9  52]
+ [ 11   7 843]]
+
+[TEST] Résultats de test :
+              precision    recall  f1-score   support
+
+    negative       0.61      0.57      0.59        63
+      neutre       0.44      0.09      0.15        76
+    positive       0.91      0.98      0.95       861
+
+    accuracy                           0.89      1000
+   macro avg       0.65      0.55      0.56      1000
+weighted avg       0.86      0.89      0.86      1000
+
+Matrice de confusion (TEST):
+[[ 36   2  25]
+ [ 15   7  54]
+ [  8   7 846]]
