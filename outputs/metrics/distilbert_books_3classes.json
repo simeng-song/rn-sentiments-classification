@@ -1,0 +1,120 @@
+{
+  "run_name": "bert_Books_3",
+  "model_type": "bert",
+  "dataset_name": "Books_3",
+  "include_neutral": true,
+  "transformer_model": "distilbert-base-uncased",
+  "labels": [
+    "negative",
+    "neutre",
+    "positive"
+  ],
+  "dev": {
+    "accuracy": 0.846,
+    "f1_macro": 0.3055254604550379,
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        82
+      ],
+      [
+        0,
+        0,
+        72
+      ],
+      [
+        0,
+        0,
+        846
+      ]
+    ],
+    "report": {
+      "negative": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 82.0
+      },
+      "neutre": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 72.0
+      },
+      "positive": {
+        "precision": 0.846,
+        "recall": 1.0,
+        "f1-score": 0.9165763813651138,
+        "support": 846.0
+      },
+      "accuracy": 0.846,
+      "macro avg": {
+        "precision": 0.282,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.3055254604550379,
+        "support": 1000.0
+      },
+      "weighted avg": {
+        "precision": 0.715716,
+        "recall": 0.846,
+        "f1-score": 0.7754236186348862,
+        "support": 1000.0
+      }
+    }
+  },
+  "test": {
+    "accuracy": 0.846,
+    "f1_macro": 0.3055254604550379,
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        82
+      ],
+      [
+        0,
+        0,
+        72
+      ],
+      [
+        0,
+        0,
+        846
+      ]
+    ],
+    "report": {
+      "negative": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 82.0
+      },
+      "neutre": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 72.0
+      },
+      "positive": {
+        "precision": 0.846,
+        "recall": 1.0,
+        "f1-score": 0.9165763813651138,
+        "support": 846.0
+      },
+      "accuracy": 0.846,
+      "macro avg": {
+        "precision": 0.282,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.3055254604550379,
+        "support": 1000.0
+      },
+      "weighted avg": {
+        "precision": 0.715716,
+        "recall": 0.846,
+        "f1-score": 0.7754236186348862,
+        "support": 1000.0
+      }
+    }
+  }
+}
